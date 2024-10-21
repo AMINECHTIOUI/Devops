@@ -11,6 +11,13 @@
 	<groupId>tn.esprit.spring</groupId>
 	<artifactId>gestion-station-ski</artifactId>
 	<version>1.0</version>
+	 <distributionManagement>
+        <repository>
+            <id>deploymentRepo</id>
+            <name>Nexus Repository</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 	<name>gestion-station-ski</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
